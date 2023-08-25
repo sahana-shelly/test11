@@ -1,0 +1,209 @@
+body {
+    background: #f9f9f9;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #414141;
+}
+
+.margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+navbar-brand {
+        color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 27px;
+}
+nav.navbar.navbar-expand-lg.navbar.navbar-dark.bg-primary {
+    padding: 20px;
+    }
+    li.nav-item a {
+        color: white !important;
+        font-size: 20px;
+    }
+ul.dropdown-menu.show {
+     background-color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+     margin-top: 17px;
+}
+ul.dropdown-menu.show li a:hover {
+    background-color:red;
+    border: 2px solid black;
+    }
+
+.btn-outline-success {
+  
+    background-color: white;
+}
+.btn-outline-success:hover{
+   background-color: red;
+}
+marquee {
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 30px;
+}
+.title{
+    text-align: center;
+}
+.title h1 {
+    font-family: verdana;
+    font-weight: bold;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+}
+.para {
+     margin-left: 80px;
+     font-size: 20px;
+}
+.button {
+    width: 162px;
+    margin: 0 auto;
+}
+.button button {
+    padding: 20px 30px;
+    background-color: #F44336;
+    color: white;
+    border-radius: 25%;
+    font-size: 20px;
+}
+
+.button button:hover {
+    background-color: black;
+}
+.service-para h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.service-para p {
+    text-align: -webkit-center;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.service-icon {
+    background-color: blue;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+.service-icon i {
+    padding-top: 15px;
+    font-size: 39px;
+    color: white;
+}
+
+
+/*blog start*/
+
+
+.blog {
+    background-color: beige;
+    padding: 20px;
+}
+.blog p {
+    text-align: -webkit-center;
+}
+
+
+.blog-section img {
+    width: 100%;
+    height: auto;
+}
+.blog-para button {
+    padding: 3px 50px;
+    background-color: red;
+    border-radius:25px;
+   
+}
+.blog-button button {
+    padding: 20px 30px;
+    font-size: 18px;
+}
+.blog-button {
+    
+    width: 144px;
+    margin: 0 auto;
+}
+.blog-para button:hover{
+background-color: black;
+color:white;
+}
+/*contact section start*/
+.contact-area {
+    background-color: cadetblue;
+    padding: 70px;
+    color: white;
+}
+textarea#exampleFormControlTextarea1 {
+    border: none;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 1.375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #212529;
+    background-color: #fff;
+    /* background-clip: padding-box; */
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.cotact-button {
+    width: 127px;
+    margin: 0 auto;
+}
+
+
+.cotact-button button {
+    background-color: red;
+    margin-top: 43px;
+    padding: 9px 40px;
+    border: 2px solid white;
+    white-space: nowrap;
+    border-radius: 24px;
+}
+
+footer#footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+}
+#toTop {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: auto;
+    float: right;
+    padding: 10px;
+    text-align: center;
+    line-height: 12px;
+}
+#toTop i {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 66px;
+    color: #ffffff;
+    font-size: 22px;
+    background-color: #888888;
+}
